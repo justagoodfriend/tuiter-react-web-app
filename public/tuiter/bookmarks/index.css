@@ -1,0 +1,104 @@
+.wd-bookmark-padding {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-bookmark-style {
+    font-size: 20px;
+    color:white;
+}
+
+.wd-subtext {
+    font-size: 13px;
+    color:lightgray;
+}
+
+.wd-padding-left {
+    padding-left: 16px;
+}
+
+.wd-padding-bottom {
+    padding-bottom:12px
+}
+
+.wd-padding-above {
+    padding-top: 12px;
+}
+
+
+.wd-padding-around {
+    padding:12px;
+}
+
+.wd-round-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-set-width {
+    width:48px;
+}
+
+.wd-set-second-width {
+    width:504px;
+}
+
+.wd-set-picture-height {
+    height:264px;
+}
+
+.wd-round-upperimage-corners {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-round-lower-corners {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-space-evenly {
+    justify-content: space-around;
+}
+
+.wd-handle-font-size {
+    font-size:15px;
+}
+
+.wd-lightgray-text {
+    color: lightgray
+}
+
+.wd-maincontent-font {
+    color:white;
+    font-size:15px;
+}
+
+.wd-max-width {
+    max-width: 506px;
+}
+
+.wd-top-sides {
+    border-top: thin solid RGB(110, 118, 125);
+    border-left: thin solid RGB(110, 118, 125);
+    border-right: thin solid RGB(110, 118, 125);
+}
+
+.wd-bottom-sides {
+    border-bottom: thin solid RGB(110, 118, 125);
+    border-left: thin solid RGB(110, 118, 125);
+    border-right: thin solid RGB(110, 118, 125);
+}
+
+.wd-heart-icon {
+    color: pink;
+}
+
+.wd-icon-color {
+    color: rgb(47, 51, 54)
+}
+
+.wd-total-width {
+    width: 596px;
+}
