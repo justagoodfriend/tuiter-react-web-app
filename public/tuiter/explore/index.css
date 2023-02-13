@@ -36,6 +36,10 @@
     font-size: 15px
 }
 
+.wd-underline{
+    text-decoration: none;
+}
+
 .wd-gap {
     gap: 16px; 
 }
@@ -82,6 +86,45 @@
     border-bottom: medium solid rgb(29, 161, 242);
     padding: 16px;
 }
+
+.wd-background-image {
+    background-image: url('https://arizonasports.com/wp-content/uploads/2023/02/ap_85375d1cd1a1456a9322d48926a90ed0-e1675974604479.jpg');
+    background-size:cover;
+}
+
+.wd-bottom-left {
+    color:white;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.wd-parent-relative {
+    position: relative;
+}
+
+
+.wd-round-buttons {
+    border-radius:20%;
+}
+
+.wd-no-padding {
+    padding: 0;
+
+}
+
+.wd-light-gray {
+    color:gray
+}
+
+.wd-font-main {
+    font-weight: bold;
+}
+
+.wd-max-height {
+    max-height: 100px;
+}
+
 
 
 
