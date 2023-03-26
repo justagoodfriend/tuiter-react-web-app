@@ -1,135 +1,133 @@
 .wd-text-font-color {
-    color:white;
+  color: white;
 }
 
 .wd-search-height-width {
-    width: 80%;
+  width: 80%;
 }
 
 .wd-search-bg-color {
-    background-color:rgb(110, 118, 125)
+  background-color: rgb(110, 118, 125);
 }
 
 .wd-rounded-corners {
-    border-radius:50px
+  border-radius: 50px;
 }
 
 .wd-text-size {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .wd-padding-page {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .wd-padding-search-box {
-    padding: 10px;
+  padding: 10px;
 }
 
 .wd-highlighted-text {
-    color:rgb(29, 161, 242);
-    font-size: 15px
+  color: rgb(29, 161, 242);
+  font-size: 15px;
 }
 
-.wd-input-search{
-    color: rgb(110, 118, 125);
-    font-size: 15px
+.wd-input-search {
+  color: rgb(110, 118, 125);
+  font-size: 15px;
 }
 
-.wd-underline{
-    text-decoration: none;
+.wd-underline {
+  text-decoration: none;
 }
 
 .wd-gap {
-    gap: 16px; 
+  gap: 16px;
 }
 
 .wd-regular-padding {
-    padding:16px;
+  padding: 16px;
 }
 
 .wd-border-color {
-    border: 3px;
-    border-color:  rgb(47, 51, 54)
+  border: 3px;
+  border-color: rgb(47, 51, 54);
 }
 
 .wd-suggested-post {
-    color:rgb(110, 118, 125);
-    font-size: 13px;
+  color: rgb(110, 118, 125);
+  font-size: 13px;
 }
 
 .wd-justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .wd-image-rounded {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .wd-padding-left {
-    padding-right:16px;
+  padding-right: 16px;
 }
 
 .wd-align-items {
-    align-items:center;
+  align-items: center;
 }
 
 .wd-margin-search {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .wd-navigation-tab {
-    padding: 16px;
+  padding: 16px;
 }
 
 .wd-selected-tab {
-    border-bottom: medium solid rgb(29, 161, 242);
-    padding: 16px;
+  border-bottom: medium solid rgb(29, 161, 242);
+  padding: 16px;
 }
 
 .wd-background-image {
-    background-image: url('https://arizonasports.com/wp-content/uploads/2023/02/ap_85375d1cd1a1456a9322d48926a90ed0-e1675974604479.jpg');
-    background-size:cover;
+  background-image: url("https://arizonasports.com/wp-content/uploads/2023/02/ap_85375d1cd1a1456a9322d48926a90ed0-e1675974604479.jpg");
+  background-size: cover;
 }
 
 .wd-bottom-left {
-    color:white;
-    position: absolute;
-    bottom:0px;
-    left:0px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 .wd-parent-relative {
-    position: relative;
+  position: relative;
 }
 
 .wd-round-buttons {
-    border-radius:20%;
+  border-radius: 20%;
 }
 
 .wd-no-padding {
-    padding: 0;
-
+  padding: 0;
 }
 
 .wd-light-gray {
-    color:gray
+  color: gray;
 }
 
 .wd-font-main {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .wd-max-height {
-    max-height: 100px;
+  max-height: 100px;
 }
 
 .wd-nudge-up {
-    bottom: 18px;
-    left: 25px;
- }
- 
+  bottom: 18px;
+  left: 25px;
+}
 
-
-
-
+.wd-red {
+  color: red;
+}
