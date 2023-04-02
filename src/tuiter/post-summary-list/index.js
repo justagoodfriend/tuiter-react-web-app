@@ -5,11 +5,11 @@ import { findTuitsThunk } from "../../services/tuits-thunks";
 import { useEffect } from "react";
 
 const PostSummaryList = () => {
-  //const postsArray = useSelector((state) => state.tuits);
   const { tuits } = useSelector((state) => state.tuitsData);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(findTuitsThunk());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <ul className="list-group">
