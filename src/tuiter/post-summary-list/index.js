@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 const PostSummaryList = () => {
   //const postsArray = useSelector((state) => state.tuits);
-  const { tuits, loading } = useSelector((state) => state.tuitsData);
+  const { tuits } = useSelector((state) => state.tuitsData);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(findTuitsThunk());
