@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route index element={<Labs />} />
         <Route path="/hello" element={<HelloWorld />} />
-        <Route path="/tuiter" element={<Tuiter />} />
+        <Route path="/tuiter" element={<HomeComponent />} />
         <Route path="tuiter/homenew" element={<HomeComponent />} />
         <Route path="tuiter/explorenew" element={<Tuiter />} />
         <Route path="/a7" element={<Assignment7 />} />
