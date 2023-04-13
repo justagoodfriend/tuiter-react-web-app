@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { deleteTuit } from "../reducers/tuits-reducer";
 const TuitItem = ({
@@ -15,6 +15,8 @@ const TuitItem = ({
     likes: 1234,
   },
 }) => {
+  const [liked, setliked] = useState(tuit.liked);
+  const [likes, setLikes] = useState(tuit.likes);
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
     dispatch(deleteTuit(id));
@@ -54,10 +56,14 @@ const TuitItem = ({
             </div>
             <div className="col-3">
               <i
-                className={`bi bi-heart-fill ${tuit.liked ? "color:red" : ""}`}
-                style={tuit.liked ? { color: "red" } : { color: "black" }}
+                onClick={() => {
+                  setliked(!liked);
+                  !liked ? setLikes(likes + 1) : setLikes(likes - 1);
+                }}
+                className={`bi bi-heart-fill ${liked ? "color:red" : ""}`}
+                style={liked ? { color: "red" } : { color: "black" }}
               ></i>
-              {tuit.likes}
+              {likes}
             </div>
             <div className="col-3">
               <i class="bi bi-share-fill"></i>

@@ -26,9 +26,9 @@ const tuitsSlice = createSlice({
       state.splice(index, 1);
     },
     createTuit(state, action) {
-      state.unshift({
-        ...action.payload,
+      state.push({
         ...templateTuit,
+        ...action.payload,
         _id: new Date().getTime(),
       });
     },
