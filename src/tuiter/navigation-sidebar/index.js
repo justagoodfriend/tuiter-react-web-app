@@ -16,7 +16,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           <div className="col-3">
             {" "}
             <a
-              href="/tuiter/home"
+              href="/tuiter/homenew"
               class="bi bi-house-fill"
               style={{ color: "inherit" }}
             >
